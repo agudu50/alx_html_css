@@ -330,3 +330,54 @@ h4{
     margin: 0;
 }
 
+footer{
+    background-color: #0c0b0c;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 30px 20px;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+footer section > div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer img {
+    width: 100px;
+    height: auto;
+}
+
+footer div div {
+    display: flex;
+    gap: 15px;
+}
+
+footer i {
+    font-size: 20px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+footer i:hover {
+    color: #C271FF;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #ccc;
+    display: inline-block;
+}
+
+
