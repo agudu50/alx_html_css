@@ -3,6 +3,8 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
    flex-direction: column;
 
+   background-color: rgb(175, 148, 200);
+
 }
 
 body, main{
@@ -26,3 +28,6 @@ aside{
 article, aside{
     overflow-y: auto;
 }
+
+
+
