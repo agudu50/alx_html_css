@@ -1,0 +1,28 @@
+body{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   flex-direction: column;
+
+}
+
+body, main{
+     display: flex;
+}
+
+main{
+    flex-direction: row;
+    flex: auto;
+}
+
+article{
+    flex: 2;
+   
+}
+aside{
+    flex: 1;
+  
+}
+
+article, aside{
+    overflow-y: auto;
+}
