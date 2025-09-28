@@ -126,3 +126,111 @@ blockquote{
 p{
    font:italic;
 }
+
+.video_rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.third_section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tutorials-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.tutorial-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 250px;
+    padding: 15px;
+}
+
+.tutorial-card img:first-child {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.tutorial-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tutorial-card p {
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #666;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 15px 0;
+    gap: 5px;
+    text-align: left;
+}
+
+.author-info img {
+    width: 30px;
+    height: 30px;
+    border-radius: 60px;
+}
+
+.author-info h4 {
+    margin: 0;
+    font-size: 14px;
+    color: #C271FF;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.stars {
+    display: flex;
+    gap: 2px;
+}
+
+.stars i {
+    color: #C271FF;
+    font-size: 12px;
+}
+
+.duration {
+    font-size: 14px;
+    color: #C271FF;
+    font-weight: bold;
+}
+
+h4{
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
