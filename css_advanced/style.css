@@ -93,3 +93,36 @@ img{
     border-radius: 120px;
     align-items: center;
 }   
+
+
+
+.second_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #C271FF;
+    width: auto;
+
+}
+
+.testimony{
+    text-align: left;
+    padding: 50px;
+    margin-right: 120px;
+    color: white;
+    align-items: center;
+    font-size: 15px;
+   
+}
+
+blockquote{
+    text-align: left;
+   margin: 0;
+}
+
+p{
+   font:italic;
+}
